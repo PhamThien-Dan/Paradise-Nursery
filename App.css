@@ -1,0 +1,47 @@
+/* App.css */
+.landing-page {
+  /* Replace the URL with an actual image link or local asset */
+  background-image: url('https://images.unsplash.com/photo-1466692476877-6d17191359fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.landing-page h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.get-started-btn, .action-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.get-started-btn:hover, .action-btn:hover {
+  background-color: #45a049;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+}
+
+.nav-links span {
+  margin: 0 15px;
+  cursor: pointer;
+}
